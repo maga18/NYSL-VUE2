@@ -6,9 +6,9 @@
     <div class="sidebar-wrapper">
       <div class="logo">
         <a href="#" class="simple-text logo__container">
-            <div class="logo-img">
-                <img src="img/vue-logo.png" alt="">
-            </div>
+
+                <img src="img/nysl_logo.png" class="balon" alt="">
+
           {{title}}
         </a>
       </div>
@@ -43,7 +43,7 @@
     props: {
       title: {
         type: String,
-        default: 'Vue LBD'
+        default: ''
       },
       backgroundColor: {
         type: String,
@@ -55,7 +55,9 @@
       },
       backgroundImage: {
         type: String,
-        default: 'img/sidebar-5.jpg'
+        default: 'img/grama.jpg',
+
+
       },
       activeColor: {
         type: String,
@@ -97,7 +99,16 @@
  .sidebar .nav-main__links {
    flex: 1;
  }
- .sidebar .sidebar-wrapper .logo .logo__container {
-   padding-left: 10px;
+ .sidebar .sidebar-wrapper .logo .logo__container .logo-img {
+   padding-left: ;
+   height:100%;
+   width:100%
  }
+
+.balon{
+height:200px;
+width:200px
+
+}
+
 </style>

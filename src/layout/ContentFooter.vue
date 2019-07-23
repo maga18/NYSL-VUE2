@@ -1,18 +1,12 @@
 <template>
   <footer class="footer">
     <div class="container-fluid">
-      <nav>
-        <ul class="footer-menu">
-          <li>
-            <router-link :to="{path:'/admin'}">Dashboard</router-link>
-          </li>
-        </ul>
-      </nav>
+
       <div class="copyright text-center">
-        &copy; Coded with
-        <i class="fa fa-heart heart"></i> by
-        <a href="https://binarcode.com" target="_blank">BinarCode</a>.
-        Designed by <a href="https://www.creative-tim.com/?ref=pdf-vuejs" target="_blank">Creative Tim</a>.
+        &copy; con la ayuda de Fede y Seba.
+
+        Diseñado por <a href="https://www.creative-tim.com/?ref=pdf-vuejs" target="_blank">Creative Tim</a>.
+        Rediseñado por Maria Pineda
       </div>
     </div>
   </footer>

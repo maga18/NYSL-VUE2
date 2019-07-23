@@ -3,14 +3,14 @@ import DashboardLayout from '../layout/DashboardLayout.vue'
 import NotFound from '../pages/NotFoundPage.vue'
 
 // Admin pages
-import Overview from 'src/pages/Overview.vue'
-import UserProfile from 'src/pages/UserProfile.vue'
-import TableList from 'src/pages/TableList.vue'
-import Typography from 'src/pages/Typography.vue'
-import Icons from 'src/pages/Icons.vue'
-import Maps from 'src/pages/Maps.vue'
-import Notifications from 'src/pages/Notifications.vue'
-import Upgrade from 'src/pages/Upgrade.vue'
+import Overview from 'src/pages/Overview.vue'//Home
+import UserProfile from 'src/pages/UserProfile.vue'//Registration
+import TableList from 'src/pages/TableList.vue'//Game Information
+import Typography from 'src/pages/Typography.vue'//Rules
+import Icons from 'src/pages/Icons.vue'//Imagen
+import Maps from 'src/pages/Maps.vue'//maps
+import Notifications from 'src/pages/Notifications.vue'//Upcoming Events
+//import Upgrade from 'src/pages/Upgrade.vue'
 
 const routes = [
   {
@@ -58,11 +58,11 @@ const routes = [
         name: 'Notifications',
         component: Notifications
       },
-      {
+      /*{
         path: 'upgrade',
         name: 'Upgrade to PRO',
         component: Upgrade
-      }
+      }*/
     ]
   },
   { path: '*', component: NotFound }

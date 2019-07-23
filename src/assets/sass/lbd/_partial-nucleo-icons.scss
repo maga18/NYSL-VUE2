@@ -19,7 +19,7 @@ License - nucleoapp.com/license/
 -------------------------*/
 .nc-icon {
   display: inline-block;
-  font: normal normal normal 14px/1 'nucleo-icons';
+  font: normal normal normal 29px/1 'nucleo-icons';
   font-size: inherit;
   speak: none;
   text-transform: none;
@@ -31,14 +31,14 @@ License - nucleoapp.com/license/
   change icon size
 -------------------------*/
 .nc-icon.lg {
-  font-size: 1.33333333em;
+  font-size: 7.33333333em;
   vertical-align: -16%;
 }
 .nc-icon.x2 {
-  font-size: 2em;
+  font-size: 8em;
 }
 .nc-icon.x3 {
-  font-size: 3em;
+  font-size: 8em;
 }
 /*----------------------------------
   add a square/circle background
@@ -47,7 +47,7 @@ License - nucleoapp.com/license/
 .nc-icon.circle {
   padding: 0.33333333em;
   vertical-align: -16%;
-  background-color: #eee;
+  background-color: #aaa;
 }
 .nc-icon.circle {
   border-radius: 50%;

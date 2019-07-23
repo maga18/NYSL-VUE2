@@ -245,7 +245,7 @@ body > .navbar-collapse{
     }
 
     &:after{
-       @include icon-gradient($new-purple, $purple-color-bottom);
+       @include icon-gradient($new-green, $green-color-bottom);
        z-index: 3;
        opacity: 1;
     }
@@ -255,8 +255,8 @@ body > .navbar-collapse{
         opacity: .77;
     }
 
-    &[data-color="black"]:after{
-      @include icon-gradient($black-color-top, $black-color-bottom);
+    &[data-color="green"]:after{
+      @include icon-gradient($green-color-top, $green-color-bottom);
     }
     &[data-color="blue"]:after{
         @include icon-gradient($new-dark-blue, $blue-color-bottom);

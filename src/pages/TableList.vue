@@ -3,14 +3,14 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-12">
-          <card class="strpied-tabled-with-hover"
+          <card class="tabled-with-hover"
                 body-classes="table-full-width table-responsive"
           >
             <template slot="header">
               <h4 class="card-title">Game Information</h4>
               <p class="card-category">All place take place on Saturday</p>
             </template>
-            <l-table class="table-hover table-striped"
+            <l-table class="table-hover"
                      :columns="table1.columns"
                      :data="table1.data">
             </l-table>

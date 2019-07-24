@@ -1,11 +1,12 @@
 <template>
   <div class="wrapper">
-    <side-bar>
+     <side-bar>
       <mobile-menu slot="content"></mobile-menu>
-      <sidebar-link to="/admin/overview">
-        <i class="nc-icon nc-chart-pie-35"></i>
-        <p>Home</p>
-      </sidebar-link>
+    
+                               <sidebar-link to="/admin/prueba">
+                               <i class="nc-icon nc-bell-55"></i>
+                             <p>Up coming Events</p>
+                              </sidebar-link>
       <sidebar-link to="/admin/user">
         <i class="nc-icon nc-circle-09"></i>
         <p>Registration</p>
@@ -26,10 +27,10 @@
         <i class="nc-icon nc-pin-3"></i>
         <p>Maps</p>
       </sidebar-link>
-      <sidebar-link to="/admin/notifications">
+      <!--<sidebar-link to="/admin/notifications">
         <i class="nc-icon nc-bell-55"></i>
         <p>Up coming events</p>
-      </sidebar-link>
+      </sidebar-link> -->
 
       <template slot="bottom-links">
 
@@ -46,10 +47,14 @@
     </div>
   </div>
 </template>
-<style lang="scss">
+<style lang="css">
+div .main-panel{
+background-color:white;
+}
 
 </style>
 <script>
+
   import TopNavbar from './TopNavbar.vue'
   import ContentFooter from './ContentFooter.vue'
   import DashboardContent from './Content.vue'

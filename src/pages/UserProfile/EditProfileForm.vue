@@ -55,14 +55,30 @@
       </div>
 
       <div>
+
+      <fieldset>
+        <span>Grade:</span>
+        <label for="pre_school">Pre-School</label>
+        <input type="radio" name="grade" id="pre_school" value="pre_school"/>
+        <label for="1st">1st</label>
+        <input type="radio" name="grade" id="1st" value="1st"/>
+        <label for="2nd">2nd</label>
+        <input type="radio" name="grade" id="2nd" value="2nd"/>
+        <label for="3rd">3rd</label>
+        <input type="radio" name="grade" id="3rd" value="3rd"/>
+        <label for="4th">4th</label>
+        <input type="radio" name="grade" id="4th" value="4th"/>
+        <label for="5th">5th</label>
+        <input type="radio" name="grade" id="5th" value="5th"/>
+      </fieldset>
      <span>Which elementary echools do you live near?</span>
 <select>
-  <option value="volvo">AJ Katzenmair</option>
-  <option value="saab">Greenbay</option>
-  <option value="opel">Hordwar A Yeager</option>
-  <option value="audi">Maryorie P hart</option>
-  <option value="opel">North</option>
-    <option value="audi">South</option>
+  <option value="Katzenmair">AJ Katzenmair</option>
+  <option value="Greenbay">Greenbay</option>
+  <option value="Hordward">Hordwar A Yeager</option>
+  <option value="Maryorie">Maryorie P hart</option>
+  <option value="North">North</option>
+    <option value="South">South</option>
 </select>
       </div>
 
@@ -121,16 +137,16 @@
     data () {
       return {
         user: {
-          company: 'Light dashboard',
+          company: 'NYSL',
           username: 'michael23',
           email: '',
-          firstName: 'Mike',
-          lastName: 'Andrew',
-          address: 'Melbourne, Australia',
-          city: 'melbourne',
-          country: 'Australia',
+          firstName: '',
+          lastName: '',
+          address: '',
+          city: '',
+          country: '',
           postalCode: '',
-          aboutMe: `Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.`
+          aboutMe: ``
         }
       }
     },
@@ -143,5 +159,11 @@
 
 </script>
 <style>
+fieldset{
+  margin: 2em 0;
+}
 
+fieldset label{
+  padding-left: 2em;
+}
 </style>

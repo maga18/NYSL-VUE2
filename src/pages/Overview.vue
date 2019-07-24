@@ -1,4 +1,7 @@
+
+
 <template>
+
   <div class="content">
     <div class="container-fluid">
       <div class="row">
@@ -170,6 +173,7 @@
   </div>
 </template>
 <script>
+
   import ChartCard from 'src/components/Cards/ChartCard.vue'
   import StatsCard from 'src/components/Cards/StatsCard.vue'
   import LTable from 'src/components/Table.vue'

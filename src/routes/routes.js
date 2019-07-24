@@ -3,7 +3,7 @@ import DashboardLayout from '../layout/DashboardLayout.vue'
 import NotFound from '../pages/NotFoundPage.vue'
 
 // Admin pages
-import Overview from 'src/pages/Overview.vue'//Home
+//import Overview from 'src/pages/Overview.vue'//Home
 import UserProfile from 'src/pages/UserProfile.vue'//Registration
 import TableList from 'src/pages/TableList.vue'//Game Information
 import Typography from 'src/pages/Typography.vue'//Rules
@@ -11,28 +11,35 @@ import Icons from 'src/pages/Icons.vue'//Imagen
 import Maps from 'src/pages/Maps.vue'//maps
 import Notifications from 'src/pages/Notifications.vue'//Upcoming Events
 //import Upgrade from 'src/pages/Upgrade.vue'
-
+import Prueba from 'src/pages/Prueba.vue'//Up coming Events
 const routes = [
   {
     path: '/',
     component: DashboardLayout,
-    redirect: '/admin/overview'
+    redirect: '/admin/prueba'
   },
+
   {
     path: '/admin',
     component: DashboardLayout,
-    redirect: '/admin/overview',
+    redirect: '/admin/prueba',
     children: [
-      {
-        path: 'overview',
-        name: 'Overview',
-        component: Overview
-      },
+     {
+                    path: 'prueba',
+                    name: 'Prueba',
+                    component: Prueba
+          },
+     // {
+      //  path: 'overview',
+       // name: 'Overview',
+       // component: Overview
+      //},
       {
         path: 'user',
         name: 'User',
         component: UserProfile
       },
+
       {
         path: 'table-list',
         name: 'Table List',

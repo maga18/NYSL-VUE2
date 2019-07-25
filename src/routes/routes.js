@@ -12,6 +12,7 @@ import Maps from 'src/pages/Maps.vue'//maps
 import Notifications from 'src/pages/Notifications.vue'//Upcoming Events
 //import Upgrade from 'src/pages/Upgrade.vue'
 import Prueba from 'src/pages/Prueba.vue'//Up coming Events
+
 const routes = [
   {
     path: '/',
